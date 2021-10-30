@@ -1,0 +1,7 @@
+name: "action"
+description: "d"
+uses: VeryGoodOpenSource/very_good_coverage@v1.2.0
+with:
+  path: './coverage/lcov.info'
+  min_coverage: 95
+  exclude: '**/*_observer.dart **/change.dart'
